@@ -62,7 +62,7 @@ body{
 
 .home{
     height: 100vh;
-    background: url(../image/home.jpg) no-repeat;
+    background: url(../images/home.jpg) no-repeat;
     block-size: cover;
     background-position: center;
     display: flex;
