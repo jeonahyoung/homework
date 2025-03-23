@@ -7,6 +7,14 @@
     font-family: 'Poppins',sans-serif;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #7d2ae8;
+}
+
 .wrapper{
     margin: 150px auto;
     width: 70%;
@@ -20,13 +28,7 @@ img{
     margin: 15px;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #7d2ae8;
-}
+
 
 .text-box{
     color: #fff;
