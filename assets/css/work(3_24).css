@@ -32,6 +32,9 @@
     /*Flex는 한 방향 레이아웃 시스템이고 (1차원)
       Grid는 두 방향(가로-세로) 레이아웃 시스템*/
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /*columns 는 grid 아이템들의 가로열 크기를 지정
+      repeat(반복횟수, 크기) 설정
+      minmax 속성을 사용해서 최소 크기 지정*/
     gap: 20px;
 }
 
@@ -44,6 +47,7 @@
 
 .wrapper .box:hover{
     transform: scale(1.03);
+    /*scale은 배울 변형(확대/축소) 0.3%가 확대대*/
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 
