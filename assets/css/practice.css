@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    color: #fff;
+    text-align: center;
+}
+
+body{
+    padding: min((50px,7%));
+    background-color: #000;
+}
+
+h1{
+    margin: 30px 0;
+}
